@@ -1,0 +1,100 @@
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+
+.dynamic-demo .window {
+    border:0.1em dotted #d4e06b;     
+    width:7em; 
+    height:4em;     
+    line-height:1em;
+}
+
+.dynamic-demo .window:hover, .dynamic-demo .window.jsplumb-source-hover, .dynamic-demo .window.jsplumb-target-hover {
+    border:1px solid orange;
+    color:orange;
+}
+
+/** ELEMENT POSITIONS **/
+.nodeInit {
+    top: 2em;
+    left: 2em;
+}
+
+/** JSPLUMB ARTEFACTS **/
+.jsplumb-connector {
+    z-index: 4;
+}
+
+.jsplumb-endpoint {
+    z-index: 5;
+}
+
+.window {
+    position: relative;
+    background-color:white;
+    border:1px solid #346789;
+    text-align:center;
+    z-index:24;
+    cursor:pointer;
+    box-shadow: 2px 2px 19px #aaa;
+    -o-box-shadow: 2px 2px 19px #aaa;
+    -webkit-box-shadow: 2px 2px 19px #aaa;
+    -moz-box-shadow: 2px 2px 19px #aaa;
+    -moz-border-radius:10em;
+    border-radius:10em;
+    position:absolute;
+    color:black;
+    padding:0.5em 0;
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+
+.window:hover {
+    border:1px solid #123456;
+    opacity:0.9;
+}
+
+.window a {
+    font-family: helvetica, sans-serif;
+}
+
+.window .del-btn {
+    position: absolute;
+    top: -16px;
+}
+
+path, .jsplumb-endpoint {
+    cursor: pointer;
+}
+
+.memberTree-box {
+    height: 600px;
+    width: 1010px;
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 1010px;
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+.man-icon {
+    background-image: url("imgs/man.png");
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.little-man-icon {
+    background-image: url("imgs/man.png");
+    width: 16px;
+    height: 32px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
