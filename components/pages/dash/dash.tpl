@@ -5,6 +5,3 @@
 <section id="dash-content" class="{{result.type}}">
 
 </section>
-<section>
-    <c-footer page="dash"></c-footer>
-</section>

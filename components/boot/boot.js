@@ -59,10 +59,11 @@ function loadPage(ctx, next) {
             }
             //debugger;
             var renpage = page;
-            //if(page === 'detaillist'){
-            //    renpage = 'filelist'
-            //}
-            parentcom.$broadcast('navi-update', renpage, prectx.params.router);
+            var router = prectx.params.router;
+            if(page === 'home'){
+                router = 'home'
+            }
+            parentcom.$broadcast('navi-update', renpage, router);
             runPage(prectx, next, page);
         });
     } else {
