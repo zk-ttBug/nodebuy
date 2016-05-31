@@ -294,6 +294,7 @@ module.exports = {
                     url: "#!/dash/advertiseman/advertises"
                 }
             ]
-        },
+        }
+
     ]
 };
