@@ -46,25 +46,25 @@ module.exports = {
                     isAct: "",
                     isNew: "false",
                     url: "#!/dash/pro/prolist"
-                },
-                {
-                    id: "supplyman",
-                    name: "进货管理",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/pro/supplyman"
-                },
-                {
-                    id: "stockman",
-                    name: "库存管理",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/pro/stockman"
                 }
+                //{
+                //    id: "supplyman",
+                //    name: "进货管理",
+                //    isChild: "false",
+                //    icon: "",
+                //    isAct: "",
+                //    isNew: "false",
+                //    url: "#!/dash/pro/supplyman"
+                //},
+                //{
+                //    id: "stockman",
+                //    name: "库存管理",
+                //    isChild: "false",
+                //    icon: "",
+                //    isAct: "",
+                //    isNew: "false",
+                //    url: "#!/dash/pro/stockman"
+                //}
 
             ]
         },
@@ -92,60 +92,61 @@ module.exports = {
                     isAct: "",
                     isNew: "false",
                     url: "#!/dash/prosetting/brandlist"
-                }, {
-                    id: "types",
-                    name: "类型列表",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/prosetting/types"
-                }, {
-                    id: "standards",
-                    name: "规格列表",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/prosetting/standards"
                 }
+                //{
+                //    id: "types",
+                //    name: "类型列表",
+                //    isChild: "false",
+                //    icon: "",
+                //    isAct: "",
+                //    isNew: "false",
+                //    url: "#!/dash/prosetting/types"
+                //}, {
+                //    id: "standards",
+                //    name: "规格列表",
+                //    isChild: "false",
+                //    icon: "",
+                //    isAct: "",
+                //    isNew: "false",
+                //    url: "#!/dash/prosetting/standards"
+                //}
             ]
         },
-        {
-            id: "tagsman",
-            name: "标签管理",
-            isChild: "true",
-            icon: "fa fa-tags",
-            isAct: "",
-            isNew: "false",
-            children: [
-                {
-                    id: "tags",
-                    name: "标签列表",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/tagsman/tags"
-                }, {
-                    id: "tagsprosetting",
-                    name: "标签商品设置",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/tagsman/tagsprosetting"
-                }, {
-                    id: "tagsbrand",
-                    name: "标签品牌设置",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/tagsman/tagsbrand"
-                }
-            ]
-        },
+        //{
+        //    id: "tagsman",
+        //    name: "标签管理",
+        //    isChild: "true",
+        //    icon: "fa fa-tags",
+        //    isAct: "",
+        //    isNew: "false",
+        //    children: [
+        //        {
+        //            id: "tags",
+        //            name: "标签列表",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/tagsman/tags"
+        //        }, {
+        //            id: "tagsprosetting",
+        //            name: "标签商品设置",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/tagsman/tagsprosetting"
+        //        }, {
+        //            id: "tagsbrand",
+        //            name: "标签品牌设置",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/tagsman/tagsbrand"
+        //        }
+        //    ]
+        //},
         {
             id: "ordersman",
             name: "订单管理",
@@ -190,51 +191,51 @@ module.exports = {
                 }
             ]
         },
-        {
-            id: "recordsman",
-            name: "单据管理",
-            isChild: "true",
-            icon: "fa fa-pencil-square-o",
-            isAct: "",
-            isNew: "false",
-            children: [
-                {
-                    id: "receivenote",
-                    name: "收货单",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/recordsman/receivenote"
-                },
-                {
-                    id: "stocknote",
-                    name: "进货单",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/recordsman/stocknote"
-                }
-            ]
-        },
-        {
-            id: "billman",
-            name: "发票管理",
-            isChild: "true",
-            icon: "fa fa-money",
-            isAct: "",
-            isNew: "false",
-            children: [{
-                id: "billcontent",
-                name: "发票内容管理",
-                isChild: "false",
-                icon: "",
-                isAct: "",
-                isNew: "false",
-                url: "#!/dash/billman/billcontent"
-            }]
-        },
+        //{
+        //    id: "recordsman",
+        //    name: "单据管理",
+        //    isChild: "true",
+        //    icon: "fa fa-pencil-square-o",
+        //    isAct: "",
+        //    isNew: "false",
+        //    children: [
+        //        {
+        //            id: "receivenote",
+        //            name: "收货单",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/recordsman/receivenote"
+        //        },
+        //        {
+        //            id: "stocknote",
+        //            name: "进货单",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/recordsman/stocknote"
+        //        }
+        //    ]
+        //},
+        //{
+        //    id: "billman",
+        //    name: "发票管理",
+        //    isChild: "true",
+        //    icon: "fa fa-money",
+        //    isAct: "",
+        //    isNew: "false",
+        //    children: [{
+        //        id: "billcontent",
+        //        name: "发票内容管理",
+        //        isChild: "false",
+        //        icon: "",
+        //        isAct: "",
+        //        isNew: "false",
+        //        url: "#!/dash/billman/billcontent"
+        //    }]
+        //},
         {
             id: "accountman",
             name: "会员管理",
@@ -251,50 +252,50 @@ module.exports = {
                 isNew: "false",
                 url: "#!/dash/accountman/accounts"
             }]
-        },
-        {
-            id: "sellsman",
-            name: "促销管理",
-            isChild: "true",
-            icon: "mdi-social-mood",
-            isAct: "",
-            isNew: "false",
-            children: [{
-                id: "coupons",
-                name: "优惠券列表",
-                isChild: "false",
-                icon: "",
-                isAct: "",
-                isNew: "false",
-                url: "#!/dash/sellsman/coupons"
-            }]
-        },{
-            id: "advertiseman",
-            name: "广告管理",
-            isChild: "true",
-            icon: "mdi-image-crop-original",
-            isAct: "",
-            isNew: "false",
-            children: [
-                {
-                    id: "advertisepos",
-                    name: "广告位设置",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/advertiseman/advertisepos"
-                },{
-                    id: "advertises",
-                    name: "广告列表",
-                    isChild: "false",
-                    icon: "",
-                    isAct: "",
-                    isNew: "false",
-                    url: "#!/dash/advertiseman/advertises"
-                }
-            ]
         }
+        //{
+        //    id: "sellsman",
+        //    name: "促销管理",
+        //    isChild: "true",
+        //    icon: "mdi-social-mood",
+        //    isAct: "",
+        //    isNew: "false",
+        //    children: [{
+        //        id: "coupons",
+        //        name: "优惠券列表",
+        //        isChild: "false",
+        //        icon: "",
+        //        isAct: "",
+        //        isNew: "false",
+        //        url: "#!/dash/sellsman/coupons"
+        //    }]
+        //},{
+        //    id: "advertiseman",
+        //    name: "广告管理",
+        //    isChild: "true",
+        //    icon: "mdi-image-crop-original",
+        //    isAct: "",
+        //    isNew: "false",
+        //    children: [
+        //        {
+        //            id: "advertisepos",
+        //            name: "广告位设置",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/advertiseman/advertisepos"
+        //        },{
+        //            id: "advertises",
+        //            name: "广告列表",
+        //            isChild: "false",
+        //            icon: "",
+        //            isAct: "",
+        //            isNew: "false",
+        //            url: "#!/dash/advertiseman/advertises"
+        //        }
+        //    ]
+        //}
 
     ]
 };
